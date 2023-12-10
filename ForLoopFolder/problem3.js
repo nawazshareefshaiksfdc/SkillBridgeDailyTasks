@@ -11,7 +11,15 @@ function sortInventory(inventory) {
       }
     }
   } while (swapped);
-  return inventory.map(car => car.car_model);
+
+  const sortedModels = [];
+  let index = 0;
+  while (index < inventory.length) {
+    sortedModels[index] = inventory[index].car_model;
+    index++;
+  }
+
+  return sortedModels;
 }
 
 module.exports = sortInventory;
