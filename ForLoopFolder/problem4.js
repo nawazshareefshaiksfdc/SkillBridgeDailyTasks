@@ -1,14 +1,9 @@
-const inventory = require('./inventory');
-
-
-function getCarYears() {
-    const years = [];
-    for (let i = 0; i < inventory.length; i++) {
-      years.push(inventory[i].car_year);
-    }
-        console.log(years)
-    return years;
+function getCarYears(inventory) {
+  const years = [];
+  for (let i = 0; i < inventory.length; i++) {
+    years[i] = inventory[i].car_year;
   }
-  
-  module.exports = getCarYears; 
-  
+  return years;
+}
+
+module.exports = getCarYears;

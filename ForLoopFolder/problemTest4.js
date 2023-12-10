@@ -1,3 +1,5 @@
+const inventory = require('./inventory');
 const getCarYears = require('./problem4');
 
-getCarYears();
+const carYears = getCarYears(inventory);
+console.log(carYears);

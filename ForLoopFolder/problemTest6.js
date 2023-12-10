@@ -1,3 +1,5 @@
-const filteredCars = require('./problem6'); 
+const inventory = require('./inventory');
+const FavCars = require('./problem6');
 
-filteredCars();
+const filteredCars = FavCars(inventory);
+console.log(JSON.stringify(filteredCars));

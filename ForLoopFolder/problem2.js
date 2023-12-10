@@ -1,10 +1,5 @@
-const inventory = require('./inventory');
-
-function lastCarInfo(){
+function lastCarInfo(inventory){
     let lastCar = inventory[inventory.length-1];
-    console.log(`Last car is a ${lastCar.car_make} ${lastCar.car_model}`)
+    return lastCar;
 }
-
-
-
 module.exports = lastCarInfo;

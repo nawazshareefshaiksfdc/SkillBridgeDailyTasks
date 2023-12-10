@@ -1,16 +1,12 @@
-const inventory = require('./inventory');
-function FavCars() {
+function FavCars(inventory) {
     const filteredCars = [];
-    for (let i = 0; i < inventory.length; i++) {
-      const make = inventory[i].car_make;
-      if (make === 'BMW' || make === 'Audi') {
-        filteredCars.push(inventory[i]);
-      }
+    for (let i = 0, j = 0; i < inventory.length; i++) {
+        const model = inventory[i].car_make;
+        if (model === 'BMW' || model === 'Audi') {
+            filteredCars[j] = inventory[i];
+            j++;
+        }
     }
-    console.log(JSON.stringify(filteredCars));
     return filteredCars;
-  }
-  
-  module.exports = FavCars;
-
-  
+}
+module.exports = FavCars;

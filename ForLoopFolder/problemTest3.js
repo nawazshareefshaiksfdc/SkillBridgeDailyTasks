@@ -1,3 +1,5 @@
+const inventory = require('./inventory');
 const sortInventory = require('./problem3');
 
-sortInventory();
+const sortedCarModels = sortInventory(inventory);
+console.log(sortedCarModels);

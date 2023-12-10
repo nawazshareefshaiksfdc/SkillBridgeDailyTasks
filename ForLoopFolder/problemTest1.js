@@ -1,5 +1,5 @@
-const inventory = require(`./inventory`);
-const CarDetailsById = require('./problem1') 
-let DataById = CarDetailsById();
-console.log(`Car ${ID} is a ${DataById.car_year} ${DataById.car_make} ${DataById.car_model}`);
-DataById(inventory,32);
+const inventory = require('./inventory');
+const CarDetailsById = require('./problem1');
+let ID = 41;
+let dataById = CarDetailsById(inventory, ID);
+console.log(`Car ${ID} is a ${dataById.car_year} ${dataById.car_make} ${dataById.car_model}`);
