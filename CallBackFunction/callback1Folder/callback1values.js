@@ -1,4 +1,11 @@
-const testObject = require('./callback1data');
+function values(testObject, cb) {
+    for (let keys in testObject) {
+        let values = testObject[keys];
+        cb(values, keys, testObject);
+    }
+    return values;
+}
 
-const valuesArray = Object.values(testObject);
-console.log(valuesArray);
+module.exports = values;
+// const valuesArray = Object.ValuesO(testObject);
+// console.log(valuesArray);

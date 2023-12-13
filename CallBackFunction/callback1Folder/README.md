@@ -1,3 +1,10 @@
+function keys(obj)  //completed
+function values(obj)  //completed
+function mapObject(obj, cb) //completed
+function pairs(obj) //completed
+function invert(obj) //completed
+function defaults(obj, defaultProps)
+
 <!-- first Question -->
 const testObject = { name: 'Bruce Wayne', age: 36, location: 'Gotham' }; // use this object to test your functions
 
