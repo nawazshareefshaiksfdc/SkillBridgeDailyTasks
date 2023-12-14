@@ -1,4 +1,4 @@
-const items = require('./callback2dataitems');
+const {items} = require('./callback2dataitems');
 const reduce = require('./callback2reduce');
 
 reduce(items,"+",(result) => {

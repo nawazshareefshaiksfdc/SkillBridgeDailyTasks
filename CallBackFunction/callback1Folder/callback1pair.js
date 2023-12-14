@@ -1,6 +1,4 @@
-const testObject = require('./callback1datatestObject');
 let newArray = [];
-
 const pair = (testObject) => {
   let index = 0;
   for (let key in testObject) {
@@ -9,4 +7,5 @@ const pair = (testObject) => {
   }
   console.log("["+newArray+"]");
 }
-pair(testObject);
+
+module.exports = pair;

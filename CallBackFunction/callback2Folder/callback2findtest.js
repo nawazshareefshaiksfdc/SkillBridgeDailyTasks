@@ -1,4 +1,4 @@
-const items = require('./callback2dataitems');
+const {items} = require('./callback2dataitems');
 const find = require('./callback2find');
 
 find(items,(element)=>{    

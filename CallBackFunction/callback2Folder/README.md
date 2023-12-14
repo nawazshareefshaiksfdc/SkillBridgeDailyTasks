@@ -1,8 +1,8 @@
-function each(elements, cb) //completed
-function map(elements, cb) //completed
-function reduce(elements, cb, startingValue) //completed
-function find(elements, cb) //completed
-function filter(elements, cb) //completed
+function each(elements, cb) 
+function map(elements, cb) 
+function reduce(elements, cb, startingValue) 
+function find(elements, cb) 
+function filter(elements, cb) 
 function flatten(elements)
 
 <!-- second Question -->

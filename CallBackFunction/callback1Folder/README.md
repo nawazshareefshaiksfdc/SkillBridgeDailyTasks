@@ -1,8 +1,8 @@
-function keys(obj)  //completed
-function values(obj)  //completed
-function mapObject(obj, cb) //completed
-function pairs(obj) //completed
-function invert(obj) //completed
+function keys(obj)  
+function values(obj)  
+function mapObject(obj, cb) 
+function pairs(obj) 
+function invert(obj) 
 function defaults(obj, defaultProps)
 
 <!-- first Question -->
