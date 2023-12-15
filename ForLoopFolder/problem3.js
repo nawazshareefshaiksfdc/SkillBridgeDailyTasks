@@ -14,12 +14,10 @@ function sortInventory(inventory) {
       break;
     }
   }
-
   const sortedModels = [];
   for (let i = 0; i < inventory.length; i++) {
     sortedModels[i] = inventory[i].car_model;
   }
-
   return sortedModels;
 }
 
